@@ -1,7 +1,11 @@
 Mint-Y-Tweaked
 ==============
 
-Mint-Y-Tweaked is a forked version of the Mint-Y theme. This fork, mostly updated by Drew Naylor, has a few modifications, as shown below:
+Mint-Y-Tweaked is a forked version of the Mint-Y theme. This fork, mostly updated by Drew Naylor, has a few modifications, as shown below: <br>
+- The "undershoot" and "overshoot" effects have been hidden.
+  - Overshoot shows up when you scroll up when there's no more area left, just like Android.
+  - Undershoot appears if you can scroll to see more content in a scroll area.
+- 
 
 Credits
 =======
@@ -14,7 +18,7 @@ The original Mint-Y theme is based on the Arc theme: <br>
 This modified version of the Mint-Y theme (Mint-Y-Tweaked) is based on the Mint-Y theme:
 &emsp;&emsp; Link: https://github.com/linuxmint/mint-y-theme <br>
 &emsp;&emsp; Author: The Linux Mint team https://github.com/linuxmint <br>
-&emsp;&emsp; License: GPL v3
+&emsp;&emsp; License: GPL v3 (at least I assume it is, since Arc is, too)
 
 Editing
 =======
