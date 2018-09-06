@@ -367,7 +367,11 @@
     $_bg_pos: $p center;
   }
 
-  background-image: transparent // this was the dashed line;
+  background-image: transparent;
+ // this was the dashed line;
+  
+  $_one_pixel: 1px;
+ // should fix build errors;
 
   padding-#{$p}: 1px;
   background-size: $_dash_bg_size;
