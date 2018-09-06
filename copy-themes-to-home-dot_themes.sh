@@ -1,17 +1,23 @@
 #! /bin/bash
 
-echo "This will delete old themes, copy current themes into an archive folder, then copy the new themes from Mint-Y-Theme-Tweaked repo folder. This needs a confirmation function."
-
-echo "Deleting files currently in ~/.themes/OldThemes subfolder..."
-rm ~/.themes/OldThemes
+echo "This will recursively delete old Mint-Y-Tweaked themes in ~/.themes and recursively copy the new themes from Mint-Y-Theme-Tweaked repo folder to ~/.themes. This needs a confirmation function."
 
 
-echo "Moving Mint-Y-TweakedLight theme into ~/.themes/OldThemes subfolder..."
-mv ~/.themes/Mint-Y-TweakedLight ~/.themes/OldThemes/Mint-Y-TweakedLight
+echo "Deleting old Mint-Y-TweakedLight theme files..."
+rm -r ~/.themes/Mint-Y-TweakedLight
 
-echo "Moving Mint-Y-TweakedDark theme into ~/.themes/OldThemes subfolder..."
-mv ~/.themes/Mint-Y-TweakedDark ~/.themes/OldThemes/Mint-Y-TweakedDark
+echo "Deleting old Mint-Y-TweakedDark theme files..."
+rm -r ~/.themes/Mint-Y-TweakedDark
+
+echo "Deleting old Mint-Y-TweakedDarker theme files..."
+rm -r ~/.themes/Mint-Y-TweakedDarker
 
 
-echo "Copying theme files to ~./themes..."
-cp ./usr/share/themes/Mint-Y ~/.themes/mint-y-theme-tweaked/Mint-Y-TweakedLight
+echo "Copying Mint-Y-TweakedLight theme files to ~./themes..."
+cp -r ./usr/share/themes/Mint-Y ~/.themes/Mint-Y-TweakedLight
+
+echo "Copying Mint-Y-TweakedDark theme files to ~./themes..."
+cp -r ./usr/share/themes/Mint-Y-Dark ~/.themes/Mint-Y-TweakedDark
+
+echo "Copying Mint-Y-TweakedDarker theme files to ~./themes..."
+cp -r ./usr/share/themes/Mint-Y-Darker ~/.themes/Mint-Y-TweakedDarker
