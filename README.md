@@ -14,6 +14,8 @@ Mint-Y-Tweaked is a forked version of the Mint-Y theme. This fork, mostly update
   
 Please note that this fork isn't complete even with the list above; that'll be the things I'll work on first. If more changes are done, I'll add them to the list.
 
+Also, I might have forked the wrong repository since it seems like the other [mint-themes](https://github.com/linuxmint/mint-themes) repository is updated more than this one. I might just archive this one and fork the other one.
+
 Credits
 =======
 
