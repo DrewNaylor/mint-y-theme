@@ -1,6 +1,8 @@
 Mint-Y-Tweaked
 ==============
 
+This fork of the Mint-Y theme isn't updated anymore; see [DrewNaylor/mint-themes-tweaked](https://github.com/DrewNaylor/mint-themes-tweaked/) for the version of this fork that's updated.
+
 Mint-Y-Tweaked is a forked version of the Mint-Y theme. This fork, mostly updated by Drew Naylor, has a few modifications, as shown below: <br>
 - The "undershoot" and "overshoot" effects have been hidden.
   - Overshoot shows up when you scroll up when there's no more area left, just like Android.
